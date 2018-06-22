@@ -166,11 +166,12 @@ var app = cordyceps({
         object: null,
     },
     another: {
-        random: new cordyceps.NoRecurseWrapper({object: {
+        random: new cordyceps.NoRecurseWrapper({
+            object: {
                 a: 1,
                 b: 2
-            })
-        }
+            }
+        })
     }
 });
 
